@@ -17,6 +17,6 @@ do
     OUT="./out"
     mkdir "${OUT}"
 
-    dedexer -d "${OUT}" "./$d"
+    apkds-dedexer -d "${OUT}" "./$d"
 
 done
