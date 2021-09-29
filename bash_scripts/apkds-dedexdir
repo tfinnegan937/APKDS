@@ -10,7 +10,7 @@ fi
 
 shopt -s nullglob
 FILES=$()
-read -r -a FILES <<< $(echo *.dex)
+read -r -a FILES <<< "$(echo *.dex)"
 shopt -u nullglob
 
 for d in "${FILES[@]}"
