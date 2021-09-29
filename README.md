@@ -1,6 +1,8 @@
-# **APK** **D**ata**S**cience (WIP)
+# APKDS (WIP)
 
-**APKDS** is a toolset that I created to assist in the generation of a dataset for my masters thesis
+
+
+**APKDS**(APK Data Science) is a toolset that I created to assist in the generation of a dataset for my masters thesis
 at the University of Nevada, Reno. It takes a single APK, or a directory of APKs, and extracts data that is 
 commonly used in the training of Android malware classifiers. As my research is oriented around static
 analysis techniques, this tool will primarily provide resources for that kind of research.
