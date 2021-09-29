@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/opcode-vector-builder.iml" filepath="$PROJECT_DIR$/.idea/opcode-vector-builder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/apkds.iml" filepath="$PROJECT_DIR$/.idea/apkds.iml" />
     </modules>
   </component>
 </project>
