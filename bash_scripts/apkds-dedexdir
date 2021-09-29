@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#A script for running the "dedex" tool on a directory of dex files.
 DIR="${1}"
 RLPATH="$(realpath "$DIR")"
 if [ "${RLPATH}" != "$(pwd)" ] ; then
