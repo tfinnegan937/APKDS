@@ -1,4 +1,4 @@
-#**APK****D**ata**S**cience (WIP)
+#**APK** **D**ata**S**cience (WIP)
 
 **APKDS** is a toolset that I created to assist in the generation of a dataset for my masters thesis
 at the University of Nevada, Reno. It takes a single APK, or a directory of APKs, and extracts data that is 
