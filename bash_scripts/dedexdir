@@ -1,0 +1,22 @@
+#!/bin/bash
+
+DIR="${1}"
+RLPATH="$(realpath "$DIR")"
+if [ "${RLPATH}" != "$(pwd)" ] ; then
+  cd "$DIR"
+fi
+
+
+shopt -s nullglob
+FILES=$()
+read -r -a FILES <<< $(echo *.dex)
+shopt -u nullglob
+
+for d in "${FILES[@]}"
+do
+    OUT="./out"
+    mkdir "${OUT}"
+
+    dedexer -d "${OUT}" "./$d"
+
+done

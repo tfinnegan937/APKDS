@@ -1,0 +1,3 @@
+#!/bin/bash
+args=("$@")
+java -jar /usr/local/bin/ddx1.26.jar "${args[@]}"
