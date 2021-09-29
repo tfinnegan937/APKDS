@@ -10,6 +10,7 @@ if [ "$(id -u)" -ne 0 ]; then
 fi
 #Download Dependencies
 (
+mkdir ${DEPENDENCY_DIR}
 cd "${DEPENDENCY_DIR}" || return
 if ! test -f "./ddx1.26.jar"; then
   curl https://sourceforge.net/projects/dedexer/rss?path=/dedexer/1.26 | grep "<link>.*</link>" | sed 's|<link>||;s|</link>||' | while read url; do url=`echo $url | sed 's|/download$||'`; wget $url ; done
